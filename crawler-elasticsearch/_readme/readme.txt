@@ -1,9 +1,9 @@
-elasticsearch go ¿Í»§¶Ë
+elasticsearch go å®¢æˆ·ç«¯
 F:\Go\src>go get -v github.com/olivere/elastic
 
 postman
 
-É¾³ıÕû¸öÎÄµµ
+åˆ é™¤æ•´ä¸ªæ–‡æ¡£
 POST 47.97.163.47:9200/dating_profile/zhenai/_delete_by_query
 body : 
 {
@@ -12,5 +12,10 @@ body :
     }
 }
 
-²éÑ¯
+æŸ¥è¯¢
 GET 47.97.163.47:9200/dating_profile/zhenai/_search?size=100&q=Age:(<35)
+
+service docker start
+docker images
+docker ps
+docker kill id
