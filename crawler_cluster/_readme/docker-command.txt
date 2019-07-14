@@ -1,0 +1,7 @@
+service docker start
+service docker stop
+docker images
+docker run hello-world
+docker run -d 80:80 nginx
+docker ps
+docker kill 123
