@@ -1,4 +1,5 @@
-# crawler-go
+# go-crawler
+
 go语言实现的爬虫程序
 
 爬取珍爱网数据
@@ -11,7 +12,7 @@ go语言实现的爬虫程序
 
 运行：go run main.go
 
-## crawler-elasticsearch 数据存储到ealsticsearch中
+## crawler-elasticsearch 数据存储到elasticsearch中
 
 1.阿里云(47.97.163.47)服务器安装docker: yum install docker
 
