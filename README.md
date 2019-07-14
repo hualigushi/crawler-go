@@ -36,7 +36,8 @@ postman查看 47.97.163.47:9200
 
 1-5 相同
 
-6 运行
+6 运行：
+
  F:\Go\src\crawler>go run crawler_distributed/persist/server/itemsaver.go --port=1234
 
  F:\Go\src\crawler>go run crawler_distributed/worker/server/worker.go --port=9000
